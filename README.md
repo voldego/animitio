@@ -1,7 +1,7 @@
 # Animitio:
 animitio is a javascript library that use [animate.css] (https://daneden.github.io/animate.css/) to set animation in selected html elements.
 
-#Usage:
+# Usage:
 1. include both the stylesheet animate.css and the javascript file animitio.min.js to your document
   
   ```html
@@ -22,7 +22,7 @@ animitio is a javascript library that use [animate.css] (https://daneden.github.
 </body>
 ```
 
-#Events commands:
+# Events commands:
 Event | Animitio command
 ------------ | -------------
 onclick | `Id('').click(function(){})`
@@ -35,7 +35,7 @@ onmousemove | `Id('').mmove(function(){})`
 onkeydown | `Id('').keydown(function(){})`
 onkeyup | `Id('').keyup(function(){})`
 
-#available animations:
+# Available animations:
 to set the animation you have to use the function `Id('').bounce()` and change `bounce` with one of the animation.css classes:
 * `bounce`
 * `flash`
