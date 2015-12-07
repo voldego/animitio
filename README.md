@@ -112,3 +112,18 @@ to set the animation you have to use the function `Id('').bounce()` and change `
 * `slideOutLeft`
 * `slideOutRight`
 * `slideOutUp`
+
+# Other commands:
+
+you can also hide,show and toggle elements using:
+
+```javascript
+  Id('test').show(); //to show hidden elements
+  Id('test').hide(); //to hide hide elements
+  Id('test').toggle(); //to toggle elements
+```
+to remove added animation class from element use:
+
+```javascript
+  Id('test').remove(class)
+```
