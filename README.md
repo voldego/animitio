@@ -1,5 +1,5 @@
 # Animitio:
-animitio is a javascript library that use [animate.css] (https://daneden.github.io/animate.css/) to set animate selected html elements.
+animitio is a javascript library that use [animate.css] (https://daneden.github.io/animate.css/) to animate selected html elements.
 
 # Usage:
 1. include both the stylesheet animate.css and the javascript file animitio.min.js to your document
